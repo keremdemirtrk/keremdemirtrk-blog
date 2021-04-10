@@ -1,0 +1,13 @@
+/* ./styles/globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .site-container {
+        @apply max-w-2xl mx-auto
+    }
+    .site-text-container {
+        @apply text-2xl font-bold
+    }
+}
