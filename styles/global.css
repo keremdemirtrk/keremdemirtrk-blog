@@ -5,9 +5,12 @@
 
 @layer components{
     .site-container {
-        @apply max-w-2xl mx-auto
+        @apply max-w-2xl mx-auto px-6
     }
     .site-text-container {
-        @apply text-2xl font-bold
+        @apply text-2xl  font-bold
+    }
+    .site-xl-container{
+        @apply max-w-xl  max-h-0 mx-auto mt-10
     }
 }
