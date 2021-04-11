@@ -1,7 +1,8 @@
+import Social from '../components/social'
 function HomePage() {
     return (
     <>
-      <div className="site-container">
+      <div className="site-container ">
         <div className="space-y-4">
           <h1 className="site-text-container text-indigo-400">
             Kerem Demirtürk
@@ -12,6 +13,10 @@ function HomePage() {
           </p>
         </div> 
       </div>
+
+      <div className="site-container mt-10">
+          <Social />
+        </div>
 
       <div className="site-xl-container mt-10">
         <img src="/kd-pp.jpg" alt="" />
